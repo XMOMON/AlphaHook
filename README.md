@@ -29,6 +29,14 @@ A full-featured crypto paper trading system with real-time price tracking, autom
 - **R:R Calculator**: Auto-calculated risk:reward shown in Signals list
 - **Webhook Endpoint**: `/webhooks/tradingview` for automated TradingView alerts (secret-protected)
 
+## 📸 Screenshots
+
+![Dashboard](./docs/assets/dashboard_view_1775081435597.png)
+![Stats Page](./docs/assets/stats_page_scrolled_1775081478677.png)
+![Trade Journal](./docs/assets/journal_page_1775081487913.png)
+![New Signal Modal](./docs/assets/new_signal_modal_1775081462028.png)
+
+
 ---
 
 ## 🛠 Tech Stack

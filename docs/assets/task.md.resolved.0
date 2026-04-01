@@ -1,0 +1,22 @@
+# Features 6, 7, 8 — Completion Tracker
+
+- [x] Telegram Alerts
+  - [x] `telegram.py` service with async sender (entry/TP1/close alerts)
+  - [x] Hooked into `position.py` for entry/exit alerts
+  - [x] Added `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` to `.env`
+  - [x] Added fields to `Settings` in `config.py` (Pydantic fix)
+
+- [x] Signal Notes
+  - [x] `notes` column in Signal model (`all.py`)
+  - [x] `notes` field in `SignalCreate` schema (`signals.py`)
+  - [x] Notes textarea in New Signal modal (`Signals.jsx`)
+  - [x] Expandable 📝 notes display in signals table (`Signals.jsx`)
+  - [x] DB migration — `notes` column added to SQLite via ALTER TABLE
+  - [x] Removed broken duplicate modal from `Signals.jsx`
+
+- [x] CSV Trade Export
+  - [x] `export.py` router created (`GET /api/v1/export/trades`)
+  - [x] Registered in `main.py`
+  - [x] "📥 Export Trades CSV" download button added to `Stats.jsx`
+
+## All features complete ✅
