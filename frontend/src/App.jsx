@@ -33,7 +33,7 @@ function Navigation({ lastMessage }) {
 
   return (
     <nav className="sidebar">
-      <div className="brand">PRO PaperTrader</div>
+      <div className="brand">AlphaHook</div>
       
       {/* Account Widget */}
       <div style={{ margin: '0 20px 30px', padding: '15px', background: 'rgba(240,185,11,0.04)', borderRadius: '12px', border: '1px solid rgba(240,185,11,0.12)' }}>
