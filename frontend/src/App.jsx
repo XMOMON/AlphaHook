@@ -34,8 +34,8 @@ function Navigation({ lastMessage }) {
   return (
     <nav className="sidebar">
       <div className="brand" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-        <img src="/alphahook-logo.svg" alt="AlphaHook" height="32" width="32" style={{ filter: 'drop-shadow(0 0 8px rgba(240,185,11,0.4))' }} />
-        <span>AlphaHook</span>
+        <img src="/alphahook-logo.svg" alt="AlphaHook" height="64" width="64" style={{ filter: 'drop-shadow(0 0 8px rgba(240,185,11,0.4))' }} />
+        <span style={{ fontSize: '1.4rem' }}>AlphaHook</span>
       </div>
       
       {/* Account Widget */}
