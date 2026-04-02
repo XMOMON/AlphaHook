@@ -58,8 +58,8 @@ async def get_risk_dashboard(db: AsyncSession = Depends(get_db)):
             short_exposure += p.size_usd or 0.0
 
     # Daily PnL — trades closed today
-    from datetime import datetime, timezone, timedelta
-    today_start = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+    from datetime import datetime, timedelta
+    today_start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
     r_daily = await db.execute(
         select(func.sum(Trade.pnl_usd)).where(Trade.closed_at >= today_start)
     )
