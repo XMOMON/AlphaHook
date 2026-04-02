@@ -97,8 +97,8 @@ function App() {
           color: 'var(--text-muted)',
           fontSize: '0.85rem'
         }}>
-          <img src="/alphahook-logo.svg" alt="AlphaHook" height="32" width="32" style={{ filter: 'drop-shadow(0 0 6px rgba(240,185,11,0.3))', marginBottom: '8px' }} />
-          <div>AlphaHook © 2026</div>
+          <img src="/alphahook-logo.svg" alt="AlphaHook" height="128" width="128" style={{ filter: 'drop-shadow(0 0 6px rgba(240,185,11,0.3))', marginBottom: '8px' }} />
+          <div style={{ fontSize: '1.1rem', fontWeight: 600, marginTop: '10px' }}>AlphaHook © 2026</div>
         </footer>
       </main>
     </Router>
